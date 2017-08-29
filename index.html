@@ -12,7 +12,7 @@
         <div class="side">
             <div class="me">
                 <div class="portrait" style="background-image: url(static/me.jpg);"></div>
-                
+                <!--div><img src="static/me.jpg" style="height:130px"></div-->
                 <h1 id="username" contenteditable="false">gq-tang</h1>
                 <h4 id="persona-tag" contenteditable="false">Golang / Web / 后台开发</h4>
             </div>
@@ -49,19 +49,19 @@
                 <ul class="progress-list">
                     <li>
                         <label class="left-label" contenteditable="false">Golang</label>
-                        <progress value="65" max="100"></progress>
-                    <span class="item-remove" style="visibility: hidden;"><i class="iconfont icon-delete"></i></span></li>
-                    <li>
-                        <label class="left-label" contenteditable="false">SqlServer</label>
                         <progress value="70" max="100"></progress>
                     <span class="item-remove" style="visibility: hidden;"><i class="iconfont icon-delete"></i></span></li>
                     <li>
+                        <label class="left-label" contenteditable="false">SqlServer</label>
+                        <progress value="75" max="100"></progress>
+                    <span class="item-remove" style="visibility: hidden;"><i class="iconfont icon-delete"></i></span></li>
+                    <li>
                         <label class="left-label" contenteditable="false">Mysql</label>
-                        <progress value="60" max="100"></progress>
+                        <progress value="65" max="100"></progress>
                     <span class="item-remove" style="visibility: hidden;"><i class="iconfont icon-delete"></i></span></li>
                     <li>
                         <label class="left-label" contenteditable="false">Redis</label>
-                        <progress value="60" max="100"></progress>
+                        <progress value="65" max="100"></progress>
                     <span class="item-remove" style="visibility: hidden;"><i class="iconfont icon-delete"></i></span></li>
                 </ul>
             </div>
@@ -119,13 +119,17 @@
                                     &nbsp;&nbsp;物料需求计算到请购到仓库收货发料一系列业务逻辑处理<br/>
                                     &nbsp;&nbsp;利用移动加权算法，保障仓库系统进销存平衡
                             </div>
-                            <div>2.利用sqlserver report services进行相关EIS报表设计</div>
-                            <div>3.兼SQLSERVERDBA工作；采用trace对数据库sql语句进行性能分析，调优<br/>
+                            <div>
+                                    2.负责采购相关的财务应付模块，预算，固定资产,财务总账子模块,数据库结构设计，<br>
+                                    &nbsp;&nbsp;系统二次开发.
+                            </div>
+                            <div>3.利用sqlserver report services进行相关EIS报表设计</div>
+                            <div>4.兼SQLSERVERDBA工作；采用trace对数据库sql语句进行性能分析，调优<br/>
                                 &nbsp;&nbsp;对大表进行分区优化，索引重建，表碎片整理<br/>
                                 &nbsp;&nbsp;采用logship进行高可用性方案备份
                             </div>
                             <div>
-                                    4.面向供应商供应链模块后台开发
+                                    5.面向供应商供应链模块后台开发<br>
                                     &nbsp;&nbsp;系统采用前后端分离模式，后台语言采用Golang<br/>
                                     &nbsp;&nbsp;组合tango,beedb等框架开发订单管理，对帐管理等模块WebAPI<br/>
                                     &nbsp;&nbsp;采用redis进行session缓存管理
